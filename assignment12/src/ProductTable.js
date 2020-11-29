@@ -16,7 +16,7 @@ class ProductTable extends Component{
         const {products} = this.props;
         return(
             <div>
-                <table className ="table table-stripped table-responsive">
+                <table className ="table table-striped table-responsive">
                     <thead className="thead-dark">
                         <tr>
                             <th>Name</th>
